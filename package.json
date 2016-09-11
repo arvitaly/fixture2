@@ -1,0 +1,26 @@
+{
+  "name": "fixture2",
+  "version": "0.0.1",
+  "description": "Microlib for create fixtures for unit-testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js",
+    "watch:test": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvitaly/fixture2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvitaly/fixture2/issues"
+  },
+  "homepage": "https://github.com/arvitaly/fixture2#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.4.1"
+  }
+}
