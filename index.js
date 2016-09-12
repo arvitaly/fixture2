@@ -6,7 +6,11 @@ var fix = function () {
                 type = "string";
             }
             if (typeof (type) === "string" && fix[type]) {
-                fixtures[name] = fix[type]();
+                if (type === "string") {
+                    fixtures[name] = name;
+                } else {
+                    fixtures[name] = fix[type]();
+                }
             } else {
                 fixtures[name] = type;
             }

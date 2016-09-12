@@ -16,6 +16,11 @@ it("when type setted and exists, should call fixture-func", () => {
     var res = f("test1", "int");
     expect(res).toEqual(jasmine.any(Number));
 })
+it("when type is string, should be as name", () => {
+    var f = fixtures();
+    var res = f("test1");
+    expect(res).toBe("test1");
+})
 it("String", () => {
     var res = fixtures.string();
     expect(res.length > 0).toBeTruthy();
