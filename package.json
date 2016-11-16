@@ -1,8 +1,9 @@
 {
   "name": "fixture2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Microlib for create fixtures for unit-testing",
   "main": "index.js",
+  "types": "typings.d.ts",
   "scripts": {
     "test": "istanbul cover node_modules/jasmine/bin/jasmine.js",
     "watch:test": "nodemon --exec \"npm test\""

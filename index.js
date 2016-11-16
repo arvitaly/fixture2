@@ -32,4 +32,5 @@ fix.float = function () {
 fix.number = function () {
     return Math.random() + (+new Date);
 }
+fix.default = fix;
 module.exports = fix;

@@ -1,4 +1,7 @@
 var fixtures = require('./../index');
+it("when require module, should has default export", ()=>{
+    expect(fixtures.default).toBe(fixtures);
+})
 it("when fixture not existing and type not setted, should create string-fixture and remember it", () => {
     var f = fixtures();
     var res = f("test1");
