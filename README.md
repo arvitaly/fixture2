@@ -1,4 +1,6 @@
 # fixture2
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/arvitaly/fixture2.svg)](https://greenkeeper.io/)
 Microlib for create fixtures for unit-testing
 
 [![npm version](https://badge.fury.io/js/fixture2.svg)](https://badge.fury.io/js/fixture2)
